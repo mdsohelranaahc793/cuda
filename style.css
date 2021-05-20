@@ -1,0 +1,426 @@
+body{
+   margin:0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+h1{
+  font-size:25px;
+  color:#fff;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 2;
+  text-align: center;
+}
+h2{
+  color:#fff;
+  font-size: 15px;
+  text-align:center;
+  text-transform: capitalize;
+  line-height: 40px;
+  letter-spacing: 2;
+}
+p{
+  color:#fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+.row{
+  max-width:85%;
+  margin:auto;
+}
+.white-text{
+  color:#fff;
+}
+a{
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*Start Header Section */
+
+#header-section{
+  background:linear-gradient(rgba(135, 80, 156, 0.7), rgba(135, 80, 156, 0.7)),
+  url('sohel.jpg');
+  background-position:center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:50px 0;
+}
+.header-container{
+  padding-top: 40px;
+}
+.logo{
+  
+}
+.logo a{
+  color:#fff;
+  font-size: 35px;
+  font-weight:600;
+  font-style: italic;
+  text-decoration:none;
+  text-transform: capitalize;
+}
+ul{
+  margin:0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  padding:px;
+  display:inline;
+}
+ul li a{
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding:5px;
+}
+ul li a:hover{
+  background: #653C7A;
+}
+.active{
+  background: #653C7A;
+}
+.menu{
+  position:absolute;
+  top:8px;
+  right:50px;
+}
+.sticky{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background:#87509C;
+  z-index: 999;
+  opacity:0.9;
+}
+.hero-text{
+  width:80%;
+  margin:auto;
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+.btn a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.btn-container{
+  text-align:center;
+}
+.btn{
+  background:#EB7D4B;
+  padding:10px 30px;
+  border: none;
+}
+/*End Header Section */
+
+/*Start Service Section */
+
+#service-section{
+  background:#17C2A4;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.heading-text h2{
+  text-transform:uppercase;
+  color:#fff;
+}
+.heading-text:after{
+  content:"";
+  display:block;
+  height: 4px;
+  background: #878787;
+  width:60px;
+  margin:auto;
+  margin-top:-20px;
+}
+.heading-para{
+  width:60%;
+  margin:auto;
+  padding-bottom: 15px;
+  color:#fff;
+}
+.service-item{
+  width:20%;
+  text-align: center;
+  display:inline-block;
+  margin:10px 15px;
+ }
+ 
+.service-item-container{
+  text-align: center;
+  margin-top: 35px;
+}
+.service-name a{
+  font-weight: 600;
+}
+.imgs{
+  padding: 20px 0;
+}
+.imgs img{
+  height: 100px;
+  width:100px;
+}
+/* End Service Section */
+
+/* Start Teem Section */
+#teem-section{
+  background:#E7F1F8;
+  padding-top: 10px;
+}
+#teem-section .heading-text{
+  padding-top:50px;
+}
+.heading-para p,
+.heading-text h2{
+  color: #42445A;
+}
+.teem-item{
+  width:20%;
+  text-align: center;
+  display:inline-block;
+  margin:10px 15px;
+  
+}
+.teem-name{
+  margin-top:18px;
+  margin-bottom:10px;
+}
+.teem-name a{
+  color:#42445A;
+}
+.teem-description p{ 
+  color:#42445A;
+}
+.teem-item-container{
+  text-align: center;
+  padding:29px 0;
+}
+.teem-item .myimg img{
+  border-radius:50%;
+  
+}
+.expert a{
+  color:#19DEFE;
+  
+}
+
+/* End Teem Section */
+
+/* Start Skill section */
+#skill-section{
+  background: #FFFFFF;
+  padding-bottom: 50px;
+}
+#skill-section .heading-text{
+  padding: 50px;
+}
+.animate-container{
+  text-align: center;
+}
+.animate-item h3{
+  text-transform: uppercase;
+  text-align:center;
+  margin-left:18px;
+}
+.animate-item{
+  width:15%;
+  display:inline-block;
+  margin:10px 25px;
+  text-align: center;
+}
+.animate-item svg.radial-progress circle{
+  stroke-width:7;
+}
+.animate-item svg.radial-progress text{
+  fill: #393939;
+}
+.animate-item svg.radial-progress.html-css circle{
+  stroke: #D94E85;
+}
+.animate-item svg.radial-progress.graphic circle {
+  stroke: #1FC9AC;
+}
+.animate-item svg.radial-progress.ui-ux circle {
+  stroke: #ED8D62;
+}
+.animate-item svg.radial-progress.web-design circle {
+  stroke: #31BAE7;
+}
+/* End Skill Section */
+
+/* Start Portfolio Section*/
+
+#portfolio-section{
+  background: #FFDD99;
+  padding-bottom: 50px;
+}
+#portfolio-section .heading-text{
+  padding-top: 50px;
+ 
+}
+.portfolio-btn-container{
+  text-align:center;
+  }
+ .btn-container .portfolio-btn{
+   background:#17C2A4;
+   text-transform: uppercase;
+   color: #fff;
+ }
+.row1{
+  width:100%;
+  text-align: center;
+}
+.portfolio-img{
+  display:inline-block;
+  padding-top: 20px;
+  
+  }
+.portfolio-img img{
+  width:300px;
+  height: 200px;
+  margin:0 25px;
+}
+.portfolio-img:after,
+.portfolio-img:before {
+  content:"";
+  display:table;
+  clear: both;
+}
+.portfolio-img2{
+  display: inline-block;
+  padding-top: 35px;
+  margin:0px;
+}
+
+.portfolio-img2 img {
+  width: 300px;
+  height: 200px;
+  margin: 0px 25px;
+}
+#portfolio-section .btn-container{
+  padding:35px 0;
+}
+.portfolio-btn1{
+  background: #EBC985;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 6px;
+}
+.portfolio-btn1:hover{
+  box-shadow:inset 2px 4px 4px #42445A;
+}
+
+/* End Portfolio Section*/
+
+/* Start Testimonial Section*/
+
+#testimonial-section{
+  background: #D74680;
+  padding: 50px 0;
+  color:#fff;
+  
+}
+#testimonial-section .heading-text h2,
+#testimonial-section .heading-para p{
+  color:#fff;
+}
+.testimonial-item{
+  width:40%;
+  display:inline-block;
+  text-align: left;
+  margin:0 40px;
+}
+.testimonial-container{
+  text-align: center;
+}
+.testimonial-item  .testimonial-img{
+  position:absolute;
+  margin-top: 20px;
+}
+.testimonial-img img{
+  border-radius: 50%;
+}
+.testimonial-item .testimonial-description{
+  width:250px;
+  margin-left:120px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.testimonial-description p{
+  text-align: left;
+}
+.testimonial-name{
+  margin-bottom: -20px;
+  font-weight: 600;
+}
+h5 a{
+  color: #FF9B0D;
+  text-transform: capitalize;
+}
+/* End Testimonial Section*/
+
+/* Start Contact section */
+#contact-section{
+  background: #3C5499;
+  padding: 50px 0;
+}
+#contact-section .heading-text h2,
+#contact-section .heading-para p{
+  color: #fff;
+}
+.form-container{
+  text-align: center;
+}
+.name-field, .email-field{
+  background: #273A71;
+  padding:10px 20px;
+  width:30%;
+  border:none;
+  margin:15px 10px;
+  border-radius: 6px;
+  color:#fff;
+  font-size: 25px;
+}
+.text-area-field{
+  background: #273A71;
+  border: none;
+  padding:15px;
+  width:68%;
+  height: 120px;
+  border-radius: 6px;
+  color:#fff;
+  font-size: 25px;
+}
+.submit-btn{
+  background:#30BAE7;
+  color:#fff;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+#contact-section form ::placeholder{
+  color:#fff;
+}
+/* End contact section*/
+
+/* Start Footer section*/
+.footer-section{
+  background: #344B8E;
+  padding: 25px 0;
+}
+.footer-container{
+  text-align: center;
+}
+.footer-container ul li a{
+  text-transform: capitalize;
+  margin:15px;
+}
